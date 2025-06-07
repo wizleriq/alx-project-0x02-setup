@@ -8,7 +8,7 @@ const Header = () => {
     <div className="flex items-center justify-between lg:w-[200px] lg:bg-transparent">
       <Link href="/home" className="hover:underline">Home</Link>
      <Link href="/about" className="hover:underline">About</Link>
-     <Link href="/post" className="hover:underline">Post</Link>
+     <Link href="/posts" className="hover:underline">Post</Link>
     </div>
      </div>
   );
