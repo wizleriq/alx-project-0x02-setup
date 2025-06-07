@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Header from "@/components/layout/Header";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -16,7 +17,8 @@ export default function Home() {
     <div
       className={`${geistSans.className} ${geistMono.className} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
     >
-      <h1>Wisdom</h1>
+      {/* <h1>Wisdom</h1> */}
+      <Header/>
     </div>
   );
 }

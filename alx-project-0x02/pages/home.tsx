@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Header from '@/components/layout/Header';
 import Card from '@/components/common/Card'
 import { CardProps } from '@/interfaces';
 import PostModal from '@/components/common/PostModal';
@@ -13,6 +14,7 @@ const home: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-3xl mx-auto">
+        <Header />
         {/* Create Post Button */}
         <button
           onClick={() => setIsModalOpen(true)}
