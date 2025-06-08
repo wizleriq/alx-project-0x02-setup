@@ -6,9 +6,10 @@ const Header = () => {
       <h1 className="text-2xl font-bold">Welcome to ALX Project 2</h1>
     </header> */}
     <div className="flex items-center justify-between lg:w-[200px] lg:bg-transparent">
-      <Link href="/home" className="hover:underline">Home</Link>
-     <Link href="/about" className="hover:underline">About</Link>
-     <Link href="/posts" className="hover:underline">Post</Link>
+    <Link href="/home" className="hover:underline">Home</Link>
+    <Link href="/about" className="hover:underline">About</Link>
+    <Link href="/posts" className="hover:underline">Post</Link>
+    <Link href="/users" className="hover:underline">Users</Link>
     </div>
      </div>
   );
